@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Learnings</h1>
+  <p><em>March 29, 2025</em></p>
 
+  <p> 
+<ul>
+  <li>Write blog posts
+    <ul>
+      <li>First draft</li>
+      <li>Edit</li>
+      <li>Publish</li>
+    </ul>
+  </li>
+  <li>Update project page</li>
+</ul>
+</p>
+  <p>Here’s an image:</p>
+  <h2>Watch the Talk</h2>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe 
+    src="https://www.youtube.com/embed/RkhZ4h9DrTo?start=1702" 
+    frameborder="0" 
+    allowfullscreen 
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+   </iframe>
+   </div>
+
+  <img src="/images/example.jpg" alt="Example image">
+
+  <p><a href="/">← Back to home</a></p>
+</body>
+</html>
