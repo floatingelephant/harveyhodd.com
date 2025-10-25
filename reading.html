@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,15 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><p>
+  <div id="menu"></div>
+  <script>
+    fetch('menu.html')
+      .then(response => response.text())
+      .then(html => document.getElementById('menu').innerHTML = html);
+  </script>
+
+  <div class="stackedit__html">
+    <p>
 
 <p>
   A list of books/resources/blogs i've enjoyed / learn't a lot from. Some have notes:
