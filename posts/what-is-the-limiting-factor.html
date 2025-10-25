@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test post</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
 
+  <!-- ✅ Add your custom overrides here -->
+  <style>
+    body {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+
+  <body class="stackedit">
+    <div class="stackedit__html">
+      <h3 id="limiting-factor-of-things">Limiting Factors of Things</h3>
+
+  <p>This is an on-going list of the limiting factors of things. Why aren't trees double the size? Why are planes the size they are? Exploring whether the limits are pre-determined, artificially placed, some sort of equilibrium convergence, or a myriad of other reasons.</p>
+
+  <h2>TL;DR</h2>
+  <ul>
+    <li>Once things are embedded, they may artificially place limits on things that otherwise face no physical limit.</li>
+    <li>In other scenarios, there are physics-based issues with scaling laws.</li>
+  </ul>
+
+  <h2>Planes</h2>
+  <ul>
+    <li>Lift (and wing area) scales to the square (<em>L²</em>).</li>
+    <li>Weight (and volume) scales to the cube (<em>L³</em>).</li>
+    <ul>
+      <li>Weight therefore scales faster than lift, placing a ceiling on plane size.</li>
+      <li>Jet engines also scale to the square (<em>D²</em>), meaning the larger you make an engine, the less efficient it becomes structurally (thrust per unit weight).</li>
+    </ul>
+    <li><a href="https://en.wikipedia.org/wiki/Airbus_A380">A380’s wingspan</a> is the largest ever (80 m).</li>
+    <li>Other limits:</li>
+    <ul>
+      <li>Runway lengths</li>
+      <li>Manufacturing limits (tooling, machinery)</li>
+    </ul>
+  </ul>
+
+  <h2>Trees</h2>
+
+  <h3>Hydrostatic Pressure Drop</h3>
+  <ul>
+    <li>Trees draw water up from roots to leaves through cohesion and tension.</li>
+    <li>The driving force is transpiration — evaporation at the leaf creates a negative pressure at the top.</li>
+    <li>The higher the tree, the higher the hydrostatic pressure drop (~0.01 MPa per meter).</li>
+    <li>At some point, the tensile strength of water and xylem structure can’t sustain the suction — air bubbles (cavitation) form.</li>
+    <li>This begins around 30 m and limits most trees to ~130 m. The world’s tallest tree, <em>Hyperion</em> (a coast redwood in California’s Redwood National Park), is 116 m tall.</li>
+  </ul>
+
+  <h3>Mechanical Integrity</h3>
+  <ul>
+    <li>Trunks must stabilize and resist buckling.</li>
+    <li>Weight scales to the cube (<em>m³</em>), but strength of cross-sectional area scales to the square (<em>h²</em>).</li>
+    <li>Eventually, bending stresses and self-weight exceed the trunk’s strength.</li>
+  </ul>
+
+  <h3>Carbon Efficiency</h3>
+  <ul>
+    <li>Larger trees have lower leaf area relative to volume, requiring more efficient photosynthesis.</li>
+    <li>Taller trees struggle to intercept light; lower branches become shaded.</li>
+    <li>Eventually, every photosynthetic surface is used for maintenance rather than growth — a metabolic ceiling.</li>
+    <li>Tree height may plateau while lateral growth continues.</li>
+  </ul>
+
+  <h2>Boats</h2>
+  <ul>
+    <li>Buoyancy increases with displaced volume (<em>L³</em>).</li>
+    <li>Weight also increases with (<em>L³</em>), so theoretically scalable.</li>
+    <li>The limiting factor becomes material strength — which scales with the square (<em>L²</em>).</li>
+    <li>The larger the boat, the stronger (and heavier) the materials must be, reducing payload advantage.</li>
+  </ul>
+
+  <h3>Propulsion</h3>
+  <ul>
+    <li>Engine power output scales with cylinder volume (<em>L³</em>).</li>
+    <li>Larger engines face diminishing returns due to mechanical stress, vibration, and propeller efficiency limits.</li>
+  </ul>
+
+  <p><strong>Other limiting factors:</strong></p>
+  <ul>
+    <li>Port sizes</li>
+  </ul>
+
+  <h2>Cities</h2>
+  <ul>
+    <li>Cities are metabolic systems — they import energy and export waste.</li>
+    <li>Energy systems (power grid, water pipes, sewers, waste collection) scale roughly to the square (area or length).</li>
+    <li>Demand scales with population.</li>
+  </ul>
+
+  <p>From West, Bettencourt et al., <em>PNAS (2007)</em>, <em>Nature (2010)</em>:</p>
+
+  <ul>
+    <li><code>Y<sub>infra</sub></code> = total infrastructure (e.g. road length, electrical cable length, water pipe volume)</li>
+    <li><code>N</code> = population</li>
+    <li>As a city doubles in size, total infrastructure increases by only ~85%, making it more efficient per person.</li>
+    <li>This sublinear scaling means higher intensity of use, less redundancy, and greater fragility under stress.</li>
+    <li>Past ~10–20 million people, cities encounter <em>logistical friction</em>: maintenance lag, congestion, and cascading failures.</li>
+  </ul>
